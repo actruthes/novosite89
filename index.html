@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arte</title>
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<style>
+  body {
+    font-family: Algerian, Helvetica;
+    margin: 10px;
+  }
+
+  h1 {
+    display: block;
+    background-color: rgb(57, 239, 11);
+    text-align: center;
+    border-style: solid;
+    border-width: 3pt;
+    border-color: rgb(241, 11, 11);
+    color: rgb(125, 10, 83);
+  }
+
+  h3 {
+    display: block;
+    background-color: black;
+  }
+
+  hr {
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(7, 244, 244);
+  }
+
+  .navbar {
+    overflow: hidden;
+    background-color: black;
+  }
+
+  .navbar a {
+    float: left;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;
+  }
+
+  .subnav {
+    float: left;
+    overflow: hidden;
+  }
+
+  .subnav .subnavbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    padding-top: 18px;
+  }
+
+  .navbar a:hover,
+  .subnav:hover .subnavbtn {
+    background-color: rgb(255, 132, 0);
+  }
+
+  .subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: rgb(0, 255, 26);
+    width: 100%;
+    z-index: 1;
+  }
+
+  .subnav-content a {
+    float: left;
+    color: rgb(234, 15, 136);
+    text-decoration: none;
+  }
+
+  .subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+  }
+
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+
+  button {
+    display: inline-block;
+    background-color: aquamarine;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 5px;
+
+  }
+
+  img.golfinho {
+    display: block;
+    border-style: solid;
+    position: relative;
+    margin: auto;
+    border-radius: 10pt;
+    filter: drop-shadow 
+    (10px 10px 10px rgb(207, 5, 5));
+  }
+
+  .caixa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .fundo {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  footer {
+    color: white;
+    text-align: center;
+    background-color: black;
+  }
+
+  footer h3 {
+    padding: 30px;
+  }
+
+  .btn {
+    border-top: 10px;
+  }
+
+  .caixalista{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+
+  .fundolista{
+    display: flex;
+    width:300px;
+    margin-bottom: 50px;
+  }
+
+  .lista-titulo{
+    text-align: center;
+  }
+
+  
+</style>
+
+<body>
+  <h1> A arte é a Expressão da vida </h1>
+  <hr>
+
+  <div class="caixa">
+    <div class="fundo">
+      <img src="maos-segurando-uma-forma-de-coracao.jpg" alt="golfinho">
+    </div>
+  </div>
+  <H4>Origem do artesanato: o artesanato surgiu na Pré-História. Os homens desta época faziam cestos, ferramentas, vasos
+    de cerâmica, roupas, esculturas e outros objetos usando as mãos como ferramenta e os recursos da natureza como
+    matéria-prima.
+    Crochê,Clássico dos clássicos entre as técnicas do feito à mão, o crochê e isso vale também para o tricô - é atemporal e sempre terá lugar nos mais diferentes estilos de decoração. 
+    No dia 19 de março é comemorado o Dia do Artesão. Em 28 de maio comemora-se o Dia do Ceramista. </H4>
+  <div class="navbar">
+    <a href="#Inicio">Inicio</a>
+    <div class="subnav">
+
+      <button class="subnavbtn"> Sobre<i class="fa fa-caret-down"></i>
+      </button>
+      <div class="subnav-content">
+        <a href="#Empresa">Empresa</a>
+        <a href="#Colaboradores">Colaboradores</a>
+        <a href="#Fornecedores">Fornecedores</a>
+      </div>
+    </div>
+
+    <div class="subnav">
+      <button class="subnavbtn">Serviços <i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content">
+        <a href="#Buscar">Buscar</a>
+        <a href="#Entregas">Entregas</a>
+        <a href="#Encomendas">Encomendas</a>
+        <a href="#Expresso">Expresso</a>
+      </div>
+    </div>
+
+    <div class="subnav">
+      <button class="subnavbtn">Parceiros <i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content">
+        <a href="https:/www.colegioexcelencia.com" target="_blank">ExcelÊncia</a>
+        <a href="https:/www.unc.br" target="_blank">unc</a>
+        <a href="https:/www.google.com.br" target="_blank">Google</a>
+        <a href="https://forms.gle/YbTpDmpfMCaXYkxZ8" target="_blank">Ponte de macarrão</a>
+      </div>
+    </div>
+
+    <div class="subnav">
+      <button class="subnavbtn">Contato<i class="fa fa-caret-down"></i></button>
+      <div class="subnav-content">
+        <a href="https:/www.colegioexcelencia" target="_blank">ExcelÊncia</a>
+        <a href="https:/www.colegioexcelencia" target="_blank">ExcelÊncia</a>
+        <a href="https:/www.unc.br" target="_blank">unc</a>
+        <a href="https:/www.google.com.br" target="_blank">Google</a>
+        <a href="https://forms.gle/YbTpDmpfMCaXYkxZ8" target="_blank">Ponte de macarrão</a>
+      </div>
+    </div>
+
+  </div>
+
+
+  <button class="" type="button" onclick="alert('Bem vindo!')">Click aqui!</button>
+
+  <a href="https://forms.gle/jfVf6usjmPcB11dq8" target="_blank"><button>Cadastro</button></a>
+ 
+ 
+    <div class="caixa">
+    <div class="fundo">
+      <h4>Temos vários tipos de artesanato que podemos fazer em casa</h4>
+      <img src="dragão crochê.jpg" alt="dragão">
+      <img src="minions35.jpg" alt="minions">
+    </div>
+  </div>
+  <h4 class="lista-titulo"> Artesanatos que podem ser feitos em casa</h4>
+  <div class="caixalista">
+    
+    <div class="fundolista">
+      <ol>
+        <li>Biscuit</li>
+        <li>Bordado</li>
+        <li>Caixas personalizadas</li>
+        <li>Canecas personalizadas</li>
+        <li>Chaveiros personalizados</li>
+        <li>Crochê</li>
+        <li>Luminária personalizadas</li>
+        <li>Pano de prato decorado</li>
+        <li>Tricô</li>
+      </ol>
+    </div>
+  </div>
+  <h4 class="lista-titulo">Lista de artesanatos</h4>
+  <div class="caixalista">
+    
+    <div class="fundolista">
+  
+  <ul>
+    <li>Bordado</li>
+    <li>Camisetas personalizadas</li>
+    <li>Canecas personalizadas</li>
+    <li>Cerâmicas decoradas</li>
+    <li>Pássaros de palha</li>
+    <li>Quillins(desenho confeccionado com papel)</li>
+    <li>Vidros decorados</li>
+  </ul>
+  </div>
+  </div>
+  <div class="caixa">
+    <div class="fundo">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/HpE-leCrfUI?si=XrZocRDr-O6kZH4K"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </div>
+  <div class="caixa">
+    <div class="fundo">
+      <img src="passaro quiling.jpg" alt="pássaro">
+    </div>
+  </div>
+  <h4>Novo tipo de arte, o quiling que esta encantando o país, feito com papel colorido e cola</h4>
+  <h4> "Não existe meio mais seguro para fugir do mundo do que a arte, e não há forma mais segura de se unir a ele
+    do que a arte." - JOHANN GOETHE</h4>
+  <div class="caixa">
+    <div class="fundo">
+      <img src="cao quiling.jpg" alt="câo">
+      <img src="quilin.jpg" alt="tigre">
+    </div>
+  </div>
+  <footer>
+    <h3>Aluna: Ana Cláudia Tauscheck Ruthes</h3>
+  </footer>
+
+</body>
+
+</html>
